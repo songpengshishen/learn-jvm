@@ -14,7 +14,7 @@ public class SingleCase_Double_Check {
 
     }
 
-    public synchronized static SingleCase_Double_Check getSingleCase(){
+    public static SingleCase_Double_Check getSingleCase(){
 
         if(singleCase == null){
             synchronized (lock){
